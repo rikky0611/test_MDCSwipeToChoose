@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7CCA601E0AB30CDD843F705F /* libPods-test_MDCSwipeToChoose.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 252C291DC71DF406F3DF3940 /* libPods-test_MDCSwipeToChoose.a */; };
 		9AD11D011C7014F400FD67E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD11D001C7014F400FD67E7 /* AppDelegate.swift */; };
 		9AD11D031C7014F400FD67E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD11D021C7014F400FD67E7 /* ViewController.swift */; };
 		9AD11D061C7014F400FD67E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AD11D041C7014F400FD67E7 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		9AD11D0B1C7014F400FD67E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AD11D091C7014F400FD67E7 /* LaunchScreen.storyboard */; };
 		9AD11D161C7014F400FD67E7 /* test_MDCSwipeToChooseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD11D151C7014F400FD67E7 /* test_MDCSwipeToChooseTests.swift */; };
 		9AD11D211C7014F400FD67E7 /* test_MDCSwipeToChooseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD11D201C7014F400FD67E7 /* test_MDCSwipeToChooseUITests.swift */; };
+		9AD11D301C701A0E00FD67E7 /* photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AD11D2F1C701A0E00FD67E7 /* photo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		252C291DC71DF406F3DF3940 /* libPods-test_MDCSwipeToChoose.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-test_MDCSwipeToChoose.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		905C35128C0549F008188445 /* Pods-test_MDCSwipeToChoose.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test_MDCSwipeToChoose.debug.xcconfig"; path = "Pods/Target Support Files/Pods-test_MDCSwipeToChoose/Pods-test_MDCSwipeToChoose.debug.xcconfig"; sourceTree = "<group>"; };
 		9AD11CFD1C7014F400FD67E7 /* test_MDCSwipeToChoose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test_MDCSwipeToChoose.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AD11D001C7014F400FD67E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9AD11D021C7014F400FD67E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,9 @@
 		9AD11D1C1C7014F400FD67E7 /* test_MDCSwipeToChooseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test_MDCSwipeToChooseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AD11D201C7014F400FD67E7 /* test_MDCSwipeToChooseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_MDCSwipeToChooseUITests.swift; sourceTree = "<group>"; };
 		9AD11D221C7014F500FD67E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AD11D2E1C70162100FD67E7 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		9AD11D2F1C701A0E00FD67E7 /* photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo.jpg; sourceTree = "<group>"; };
+		C2C089600725A51A737795D3 /* Pods-test_MDCSwipeToChoose.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test_MDCSwipeToChoose.release.xcconfig"; path = "Pods/Target Support Files/Pods-test_MDCSwipeToChoose/Pods-test_MDCSwipeToChoose.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CCA601E0AB30CDD843F705F /* libPods-test_MDCSwipeToChoose.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +82,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A2E05452114A64BCFC35F13 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				905C35128C0549F008188445 /* Pods-test_MDCSwipeToChoose.debug.xcconfig */,
+				C2C089600725A51A737795D3 /* Pods-test_MDCSwipeToChoose.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9AD11CF41C7014F400FD67E7 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +98,8 @@
 				9AD11D141C7014F400FD67E7 /* test_MDCSwipeToChooseTests */,
 				9AD11D1F1C7014F400FD67E7 /* test_MDCSwipeToChooseUITests */,
 				9AD11CFE1C7014F400FD67E7 /* Products */,
+				8A2E05452114A64BCFC35F13 /* Pods */,
+				9B4B2DB4CC1A02D92E8D343F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +116,10 @@
 		9AD11CFF1C7014F400FD67E7 /* test_MDCSwipeToChoose */ = {
 			isa = PBXGroup;
 			children = (
+				9AD11D2F1C701A0E00FD67E7 /* photo.jpg */,
 				9AD11D001C7014F400FD67E7 /* AppDelegate.swift */,
 				9AD11D021C7014F400FD67E7 /* ViewController.swift */,
+				9AD11D2E1C70162100FD67E7 /* BridgingHeader.h */,
 				9AD11D041C7014F400FD67E7 /* Main.storyboard */,
 				9AD11D071C7014F400FD67E7 /* Assets.xcassets */,
 				9AD11D091C7014F400FD67E7 /* LaunchScreen.storyboard */,
@@ -125,6 +146,14 @@
 			path = test_MDCSwipeToChooseUITests;
 			sourceTree = "<group>";
 		};
+		9B4B2DB4CC1A02D92E8D343F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				252C291DC71DF406F3DF3940 /* libPods-test_MDCSwipeToChoose.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +161,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9AD11D251C7014F500FD67E7 /* Build configuration list for PBXNativeTarget "test_MDCSwipeToChoose" */;
 			buildPhases = (
+				29C4810EDBDDC0076237CC12 /* Check Pods Manifest.lock */,
 				9AD11CF91C7014F400FD67E7 /* Sources */,
 				9AD11CFA1C7014F400FD67E7 /* Frameworks */,
 				9AD11CFB1C7014F400FD67E7 /* Resources */,
+				391959964CDDC5608F96B3D6 /* Embed Pods Frameworks */,
+				8516ABD8C969D2EE3267B1D2 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,6 +264,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AD11D301C701A0E00FD67E7 /* photo.jpg in Resources */,
 				9AD11D0B1C7014F400FD67E7 /* LaunchScreen.storyboard in Resources */,
 				9AD11D081C7014F400FD67E7 /* Assets.xcassets in Resources */,
 				9AD11D061C7014F400FD67E7 /* Main.storyboard in Resources */,
@@ -253,6 +286,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29C4810EDBDDC0076237CC12 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		391959964CDDC5608F96B3D6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-test_MDCSwipeToChoose/Pods-test_MDCSwipeToChoose-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8516ABD8C969D2EE3267B1D2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-test_MDCSwipeToChoose/Pods-test_MDCSwipeToChoose-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9AD11CF91C7014F400FD67E7 /* Sources */ = {
@@ -398,23 +479,27 @@
 		};
 		9AD11D261C7014F500FD67E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 905C35128C0549F008188445 /* Pods-test_MDCSwipeToChoose.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = test_MDCSwipeToChoose/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "riku-arakawa.test-MDCSwipeToChoose";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = test_MDCSwipeToChoose/BridgingHeader.h;
 			};
 			name = Debug;
 		};
 		9AD11D271C7014F500FD67E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2C089600725A51A737795D3 /* Pods-test_MDCSwipeToChoose.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = test_MDCSwipeToChoose/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "riku-arakawa.test-MDCSwipeToChoose";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = test_MDCSwipeToChoose/BridgingHeader.h;
 			};
 			name = Release;
 		};
@@ -485,6 +570,7 @@
 				9AD11D271C7014F500FD67E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AD11D281C7014F500FD67E7 /* Build configuration list for PBXNativeTarget "test_MDCSwipeToChooseTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +579,7 @@
 				9AD11D2A1C7014F500FD67E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AD11D2B1C7014F500FD67E7 /* Build configuration list for PBXNativeTarget "test_MDCSwipeToChooseUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +588,7 @@
 				9AD11D2D1C7014F500FD67E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
