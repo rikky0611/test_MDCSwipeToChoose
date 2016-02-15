@@ -8,20 +8,19 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController,MDCSwipeToChooseDelegate {
     override func viewDidLoad(){
         super.viewDidLoad()
         
         // You can customize MDCSwipeToChooseView using MDCSwipeToChooseViewOptions.
         let options:MDCSwipeToChooseViewOptions = MDCSwipeToChooseViewOptions()
-        //options.delegate! = self
+        options.delegate = self
         options.likedText = "Keep"
         options.likedColor = UIColor.blueColor()
         options.nopeText = "Delete"
         options.onPan = { state -> Void in
             if (state.thresholdRatio == 1.0 && state.direction == MDCSwipeDirection.Left) {
                 print("Let go now to delete the photo!")
-   
             }
         }
         
@@ -58,5 +57,6 @@ class ViewController: UIViewController {
         } else {
             print("Photo saved!");
         }
-    }}
+    }
+}
 
